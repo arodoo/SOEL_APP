@@ -1,0 +1,101 @@
+.container {
+  max-width: 1200px;
+margin: auto;
+  padding: 15px;
+  align-items: center;
+}
+
+/* Estilos para el título de la sección */
+.section-title {
+    color: #333;
+margin-bottom: 1.5rem;
+    font-weight: 300;
+}
+
+/* Estilos para las tarjetas */
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Estilos para el botón */
+.boton {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    float: right;
+}
+
+.boton:hover {
+    background-color: #003d82;
+}
+
+/* Media queries para responsividad */
+@media (max-width: 992px) {
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 200px;
+        /* Ajusta la altura de la imagen para dispositivos más pequeños */
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-img-top {
+        height: 150px;
+        /* Ajusta la altura de la imagen para dispositivos muy pequeños */
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    .boton {
+        padding: 8px 16px;
+    }
+}

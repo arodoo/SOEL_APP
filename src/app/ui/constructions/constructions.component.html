@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-title">Obras</h2>
+        </div>
+    </div>
+    <div class="row">
+        <!-- Itera sobre las construcciones -->
+        <ng-container *ngFor="let construction of _constructionsMain">
+            <div class="col-md-4 mb-4 mr-4">
+                <div class="card shadow">
+                    <img [src]="construction.img[0].url" [alt]="construction.nombre" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title">{{ construction.nombre }}</h3>
+                        <p class="card-text">{{ construction.descripcion }}</p>
+                    </div>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+    <div class="row mt-4">
+        <div class="col-lg-12 text-center">
+            <button class="btn btn-primary boton" routerLink="/lista-obras">Todas las obras</button>
+        </div>
+    </div>
+</div>
