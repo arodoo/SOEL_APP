@@ -1,14 +1,14 @@
 .container {
-  max-width: 1200px;
-margin: auto;
-  padding: 15px;
-  align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+    align-items: center;
 }
 
 /* Estilos para el título de la sección */
 .section-title {
     color: #333;
-margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
     font-weight: 300;
 }
 
@@ -30,6 +30,7 @@ margin-bottom: 1.5rem;
     height: auto;
     object-fit: cover;
 }
+
 .card-body {
     padding: 20px;
 }

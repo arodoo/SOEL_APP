@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
 import { AboutComponent } from '../about/about.component';
 import { ConstructionsComponent } from '../constructions/constructions.component';
+import { ProductsComponent } from '../products/products.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [AboutComponent, ConstructionsComponent],
+  imports: [AboutComponent, ConstructionsComponent, ProductsComponent,],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
