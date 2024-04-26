@@ -139,7 +139,7 @@ export class ConstructionService {
       icono: "fa fa-cogs",
       descripcion: "Tableros y transformadores en 34.5, 13.8 y 4,16 KV.\n" +
         "Distribución y montaje de centro de control de motores (CCM).\n" +
-        "Distribucion y montaje de Tableros varios (Cajas paracontrol de tableros de alumbrado, centros de carga, entreotros)."
+        "Distribucion y montaje de Tableros varios (Cajas para control de tableros de alumbrado, centros de carga, entre otros)."
     },
     {
       id: 2,
